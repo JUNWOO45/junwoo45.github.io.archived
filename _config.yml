@@ -22,9 +22,9 @@ baseurl: ""
 navbar-links:
   TIL: "https://junwoo45til.netlify.com/#/"
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+  # Resources:
+  #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+  #   - Learn markdown: "http://www.markdowntutorial.com/"
   Github: "https://github.com/junwoo45"
 
 # Image to show in the navigation bar - image must be a square (width = height)
