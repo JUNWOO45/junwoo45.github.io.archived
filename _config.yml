@@ -20,13 +20,13 @@ baseurl: ""
 
 # List of links in the navigation bar
 navbar-links:
+  Contents: "tags"
   TIL: "https://junwoo45til.netlify.com/#/"
   About Me: "aboutme"
-  아카이브: "tags"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #   - Learn markdown: "http://www.markdowntutorial.com/"
-  Github: "https://github.com/junwoo45"
+  # Github: "https://github.com/junwoo45"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
