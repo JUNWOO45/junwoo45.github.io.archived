@@ -166,7 +166,7 @@ img {
   }
 }
 
-.navbar-custom .avatar-container {
+/* .navbar-custom .avatar-container {
   position: absolute;
   left: 50%;
   width: 50px;
@@ -207,7 +207,7 @@ img {
   .navbar-custom .avatar-container .avatar-img {
     width: 100%;
   }
-}
+} */
 
 /* Multi-level navigation links */
 .navbar-custom .nav .navlinks-container {
