@@ -22,7 +22,7 @@ baseurl: ""
 navbar-links:
   TIL: "https://junwoo45til.netlify.com/#/"
   About Me: "aboutme"
-  아카이브: "./tags.html"
+  아카이브: "tags"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #   - Learn markdown: "http://www.markdowntutorial.com/"
