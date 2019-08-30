@@ -1,16 +1,9 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: 안녕하세요!
+subtitle: 프론트엔드 웹개발자 박준우입니다.
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+프론트엔드 개발에 관심이 많습니다.
+자바스크립트로 이것저것 만들어보는걸 좋아합니다!
+[자란다](https://jaranda.kr)에서 프론트엔드 개발자로 근무하고 있습니다.
