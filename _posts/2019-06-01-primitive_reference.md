@@ -9,30 +9,30 @@ comments: true
     Primitive vs Reference
 </h1>
 
-원시값과 참조값
 
-```
+
 원시값
-Boolean
-Number
-String
-Null
-Undefined
 
-참조값
-Object	
-```
+- Boolean
+- Number
+- String
+- Null
+- Undefined
 
-```
-원시 타입 변수 복사
+```javascript
+// 원시 타입 변수 복사
 var x = 100;
 var y = x;
 x = 99;
 y;	// 100
 ```
 
-```
-참조 타입 변수 복사
+참조값
+
+- Object
+
+```javascript
+// 참조 타입 변수 복사
 var x = {count : 100};
 var y = x;
 x.count = 99;
@@ -43,7 +43,7 @@ y.count;	//99
 
 다시한번 예제를 보겠습니다.
 
-```
+```javascript
 var a = {
     name : "junwoo",
     message : "hello"
@@ -76,7 +76,7 @@ console.log(b)
 
 아래의 예시처럼 함수에 argument를 넘겨줄 때에도 헷갈릴 수 있습니다.
 
-```
+```javascript
 function test(a, b){
     a = 10;
     b.name = "hello world"
@@ -92,3 +92,4 @@ test(a, b);
 console.log(a);	// 500
 console.log(b);	// "hello world"
 ```
+
