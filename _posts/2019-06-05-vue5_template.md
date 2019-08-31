@@ -11,7 +11,7 @@ comments: true
 
 1.ES5에서 뷰 인스턴스의 template속성을 이용하는 방법
 
-```
+```javascript
 new Vue({
 	template: '<p>hi {{ name }}</p>'
 });
@@ -29,7 +29,7 @@ new Vue({
 
 참고로,
 
-```
+```javascript
 <div id="app">
 	<h1>{{message}}</h1>
 </div>
