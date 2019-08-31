@@ -158,12 +158,12 @@ Mustache안에 자바스크립트 표현식을 넣으면 됩니다.
 
 ```
 <div id="app">
-  {{ var a = 10; }} 선언문은 사용불가능.
-  {{ if(isTrue) {return 'This is true!!'} }} 분기구문 불가능
-  {{ isTrue ? 'This is true!!!' : 'This is false..' }}삼항연산자는 가능
+  {% raw %}{{ var a = 10; }}{% endraw %} 선언문은 사용불가능.
+  {% raw %}{{ if(isTrue) {return 'This is true!!'} }}{% endraw %} 분기구문 불가능
+  {% raw %}{{ isTrue ? 'This is true!!!' : 'This is false..' }}{% endraw %}삼항연산자는 가능
   
-  {{ message.split('').reverse().join('') }}복잡한 연산은 인스턴스에서!
-  {{ reversedMessage }} 이런식으로!
+ {% raw %}{{ message.split('').reverse().join('') }}{% endraw %}복잡한 연산은 인스턴스에서!
+  {% raw %}{{ reversedMessage }}{% endraw %} 이런식으로!
 </div>
 
 <script>
