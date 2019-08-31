@@ -48,7 +48,7 @@ factorial(4);	//24
 
 메모이제이션이란 프로그래밍을 할 때 반복되는 결과를 메모리에 저장해서 다음에 같은 결과가 나올 때 빨리 실행하는 코딩 기법을 의미합니다.
 
-```
+```javascript
 const factorial = (function(){
     let save = {};
     cosnt fact = function(number) {
@@ -67,7 +67,7 @@ const factorial = (function(){
 })();
 ```
 
-```
+```javascript
 const fibonacci = function(number) {
     if(number < 2) {
         return number;
@@ -79,7 +79,7 @@ const fibonacci = function(number) {
 
 이걸 factorial처럼 클로저를 사용해서 메모이제이션 해보면,
 
-```
+```javascript
 const fibonacci = (function() {
     let save = {};
     const fibo = function(number) {
