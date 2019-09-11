@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 안녕하세요!
-subtitle: 프론트엔드 웹개발자 박준우입니다.
+subtitle: 프론트엔드 엔지니어 박준우입니다.
 image: /img/test.jpg
 ---
 
