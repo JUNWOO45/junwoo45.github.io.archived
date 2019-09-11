@@ -2,6 +2,7 @@
 layout: page
 title: 안녕하세요!
 subtitle: 프론트엔드 웹개발자 박준우입니다.
+image: /img/test.jpg
 ---
 
 프론트엔드 기술에 관심이 많습니다.  
