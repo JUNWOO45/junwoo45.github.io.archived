@@ -7,8 +7,7 @@ comments: true
 
 
 
-<h2>git reflog명령을 이용하면 hard-reset을 되돌릴 수 있다.</h2>
-
+<h2>git reflog명령을 이용하면 hard-reset 조차 되돌릴 수 있다.</h2>
 
 
 HEAD
@@ -36,7 +35,11 @@ $ git log --oneline
 $ git reset --hard HEAD~
 ```
 
-1.
+<br>
+
+### 다음과같이 상황을 가정해봅니다.
+
+`7e5b465`커밋을 하고, `b6596fc`커밋은 한 뒤 `3477f6`커밋을 했다고 가정합니다.
 
 ```
 3477df6 (HEAD -> master) commit 2
@@ -44,26 +47,31 @@ b6596fc commit 1
 7e5b465 (origin/master, origin/HEAD) Initial commit
 ```
 
-실수로 3477df6까지 $ git reset --hard HEAD로 지워버려서,
-b6596fc (HEAD -> master)가 되어버렸다면 다음 명령어로 되돌릴 수 있습니다.
+그런데 실수로 3477df6을 $ git reset --hard HEAD로 지워버려서,
+현재 HEAD는 b6596fc (HEAD -> master)가 되어버렸습니다.
+
+<br>
+
+이럴때, `git reflog` 명령어로 모든 커밋로그를 확인한 후에 `git reset --hard` 명령어를 사용하여 되돌아 갈 수 있습니다.
 
 ```
+$ git reflog // 커밋로그가 모두 나온다.
 $ git reset --hard 3477df6
 ```
+
+<br>
 
 하지만 모든 커밋들의 hash를 기억하고 있는 사람이 있을 수 없으니........
 그 해결책은 바로 ..!
 
-```
-$ git reflog
-```
 
-`$ git reflog` 로 나오는 모든 커밋로그를 확인한 후 ID를 가지고 쉽게 되돌릴 수 있습니다.
+
+`git reflog` 란?
 
 - 참조(reference)의 기록(log)를 보여주는 명령
 - hard reset을 되돌릴 수 있다!
 
-
+---
 
 ### Summary
 
