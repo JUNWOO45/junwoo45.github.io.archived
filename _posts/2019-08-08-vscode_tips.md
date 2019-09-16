@@ -9,11 +9,11 @@ comments: true
 
 VS Code를 애용하고 있으므로 개발환경설정 및 기분전환에 사용하기위해 기록으로 남깁니다.
 
-
-
-
+<br>
 
 ## 터미널 관련
+
+---
 
 ### 터미널에서 `code ` 라고 입력하여 VS Code 실행되도록 설정
 
@@ -23,11 +23,11 @@ Command Pallete(Shift + Command + P) 에서 `Shell command: Install 'code' comma
 $ code .
 ```
 
-
-
-
+<br>
 
 ## 커스터마이징
+
+---
 
 ### 테마 변경
 
@@ -39,9 +39,11 @@ Command + K  Command + T
 
 - Material Icon Theme
 
-
+<br>
 
 ## 단축키
+
+---
 
 ### 터미널 열기
 
@@ -61,8 +63,6 @@ command + b
 
 <br>
 
-
-
 ### Zen mode(전체화면)
 
 ```
@@ -79,7 +79,7 @@ Command + k z
 Command + \
 ```
 
-<br>  
+<br>
 
 ### 탭 스위칭
 
@@ -87,7 +87,7 @@ Command + \
 Command + 1, Command + 2 ...
 ```
 
-<br>  
+<br>
 
 ### Extensions 열기
 
@@ -95,17 +95,11 @@ Command + 1, Command + 2 ...
 Shift + Command + X
 ```
 
-
-
 <br>
-
-<br>
-
-<br>
-
-
 
 ## Editing
+
+---
 
 ### Multi cursor selection (여러 위치 선택)
 
@@ -123,8 +117,6 @@ Shift + Command + l
 
 <br>
 
-
-
 ### 현재 위치에 선택한 단어와 동일한 단어 하나씩 추가
 
 ```
@@ -133,19 +125,21 @@ Command + d
 
 <br>
 
-
-
 ### Column selection
 
 ```
 Shift + Option + 마우스 드래그
 ```
 
+<br>
+
+<br>
 
 
-------
 
-## VS Code extension
+## 좋아하는 VS Code extension
+
+---
 
 ```
 1. auto close tag
@@ -157,3 +151,10 @@ Shift + Option + 마우스 드래그
 7. gitLens: 엄청 편리하고 신박함.
 ```
 
+### auto close tag
+
+VS Code 1.16부터는 빌트인기능으로 들어갔지만, Vue나 TypeScript등을 사용할 때에는 여전히 유용합니다.  
+
+<br>
+
+### auto rename tag
