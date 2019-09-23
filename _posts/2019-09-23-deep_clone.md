@@ -17,8 +17,6 @@ comments: true
 
 ## 참조할당
 
-가장 쉬운 방법입니다.
-
 ```javascript
 const original = {
   a: 1,
@@ -31,7 +29,9 @@ original.a = 1000;
 console.log(copied.a);	//1000
 ```
 
-참조할당은 사실 복사가 아닙니다.
+가장 쉽고 먼저 떠오르는 방법입니다.
+
+하지만 참조할당은 사실 복사가 아닙니다.
 
 original과 copied라는 변수가 동일한 객체를 가리키는것 뿐입니다.
 
