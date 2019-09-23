@@ -41,6 +41,8 @@ original과 copied라는 변수가 동일한 객체를 가리키는것 뿐입니
 
 ## -Shallow Clone
 
+<br>
+
 ### Object.assign()
 
 우선, 객체의 속성을 복사할 때 사용하는 `Object.assign()`입니다.
@@ -55,10 +57,6 @@ const copiedObj = Object.assign(target, obj);
 
 console.log(copiedObj);	//{c: 3, a: 1, b: 2}
 ```
-
-<br>
-
-
 
  `Object.assign()`에게도 한가지 문제점이 있는데요.
 
@@ -82,7 +80,7 @@ console.log(copied.age);	// 100
 console.log(copied.name.first);	// 'paul'
 ```
 
-person객체의 프로퍼티를 바꿨더니, copied객체의 속성이 바뀐것을 볼 수 있습니다.
+person객체의 프로퍼티를 바꿨더니, copied 객체의 프로퍼티가 바뀐것을 볼 수 있습니다.
 
 <br>
 
@@ -107,10 +105,6 @@ original.c.d= 3000;
 console.log(copied.a);	// 1
 console.log(copied.c.d);	// 3000
 ```
-
-<br>
-
-
 
 ES6의 전개연산자 또한 객체를 복사해줍니다.
 
@@ -152,10 +146,6 @@ console.log(result.a);
 console.log(result.c.d);
 ```
 
-<br>
-
-
-
 반복문을 사용하여 객체를 복사했습니다.
 
 하지만 객체가 프로퍼티로 객체를 가지고 있다면, 정말 deep한 복사 대신에 오리지널 객체를 참조하고맙니다.
@@ -167,6 +157,8 @@ console.log(result.c.d);
 
 
 ## -Deep Clone
+
+<br>
 
 ### JSON객체의 메소드를 이용하는 방법
 
@@ -188,10 +180,6 @@ original.b.c = 2000;
 console.log(copied.a);	// 1
 console.log(copied.b.c);	// 2
 ```
-
-<br>
-
-
 
 `original` 객체의 프로퍼티를 수정해도 `copied`객체는 그대로네요.
 
@@ -331,8 +319,6 @@ console.log(copied.a);	// 1000
 console.log(copied.c.d);	// 3000
 ```
 
-<br>
-
 이렇게 복사도 안될 뿐 더러,`original` 객체는 단지 `copied` 객체의 프로토타입이 될 뿐입니다.
 
 ```javascript
@@ -345,4 +331,6 @@ copied.hasOwnProperty('a');	// false
 `copied` 객체를 찍어보면, 빈 객체가 출력되는것을 볼 수 있습니다.
 
 게다가 `프토토타입 체인은 확인하지않고, 해당 객체의 특정 프로퍼티 유무를 판단하는`  **Object.hasOwnProperty()** 를 사용해보면 true와 false가 출력되는 것을 볼 수 있습니다.
+
+
 
