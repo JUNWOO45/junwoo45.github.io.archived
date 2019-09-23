@@ -21,6 +21,3 @@ image: /img/test.jpg
 
 - Jaranda (Frontend Engineer, 2019.04 ~ )
 - Vanilla Coding (2018.11 ~ 2019.02)
-
-- Mingles, Dining in Space, Moi (~ 2017)
-- Le Cordon Bleu Seoul (Culinary Diploma, ~ 2015)
