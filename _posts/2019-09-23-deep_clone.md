@@ -338,3 +338,16 @@ copied.hasOwnProperty('a');	// false
 
 
 
+---
+
+### Reference
+
+- https://hyunseob.github.io/2016/02/08/copy-object-in-javascript/
+- https://doitnow-man.tistory.com/130
+- https://alligator.io/js/deep-cloning-javascript-objects/
+- [https://velog.io/@ddalpange/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9D%EC%B2%B4-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0](https://velog.io/@ddalpange/자바스크립트-객체-복사하기)
+- https://mygumi.tistory.com/322
+- https://stackoverflow.com/questions/38416020/deep-copy-in-es6-using-the-spread-syntax
+- https://flaviocopes.com/how-to-clone-javascript-object/
+- https://www.daleseo.com/js-objects-clone/
+
