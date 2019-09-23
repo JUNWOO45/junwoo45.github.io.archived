@@ -15,7 +15,7 @@ comments: true
 
 
 
-## 참조할당
+## -참조할당
 
 ```javascript
 const original = {
@@ -39,9 +39,9 @@ original과 copied라는 변수가 동일한 객체를 가리키는것 뿐입니
 
 
 
-## Shallow Clone
+## -Shallow Clone
 
-### Object.assing()
+### Object.assign()
 
 우선, 객체의 속성을 복사할 때 사용하는 `Object.assign()`입니다.
 
@@ -166,7 +166,7 @@ console.log(result.c.d);
 
 
 
-## Deep Clone
+## -Deep Clone
 
 ### JSON객체의 메소드를 이용하는 방법
 
@@ -306,7 +306,7 @@ console.log(copied.d());	// 'hi'
 
 
 
-## 잘못된 방법
+## -잘못된 방법
 
 ### Object.create()
 
