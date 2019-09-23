@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 자바스크립트 Deep Clone
+title: 자바스크립트 객체 Deep Clone
 tags: [javascript]
 comments: true
 ---
@@ -9,7 +9,9 @@ comments: true
 
 자바스크립트에서 객체를 복사하는 방법은 참 많습니다.
 
-하지만 의외로 Deep Clone하는 방법이 마냥 쉽지는 않은데요.
+그렇지만  Deep Clone하는 방법은 의외로 쉽지 않은데요.
+
+오늘은 자바스크립트 객체를 복사하는 방법에 대해서 정리해보려합니다.
 
 <br>
 
