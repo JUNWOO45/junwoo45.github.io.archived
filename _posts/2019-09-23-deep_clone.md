@@ -43,7 +43,7 @@ original과 copied라는 서로 다른 변수가 같은 객체를 바라보고 �
 
 
 
-## Shallow Clone
+## 얕은 복사(Shallow Clone)
 
 <br>
 
@@ -160,7 +160,7 @@ console.log(result.c.d);
 
 
 
-## Deep Clone
+## 깊은 복사(Deep Clone)
 
 <br>
 
