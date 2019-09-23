@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 자바스크립트 객체 Deep Clone
+title: 자바스크립트 객체 복사하기
 tags: [javascript]
 comments: true
 ---
