@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 자바스크립트 Deep Clone
+title: 자바스크립트 객체 복사하기
 tags: [javascript]
 comments: true
 ---
@@ -9,13 +9,15 @@ comments: true
 
 자바스크립트에서 객체를 복사하는 방법은 참 많습니다.
 
-하지만 의외로 Deep Clone하는 방법이 마냥 쉽지는 않은데요.
+그렇지만  Deep Clone하는 방법은 의외로 쉽지 않은데요.
+
+오늘은 자바스크립트 객체를 복사하는 방법에 대해서 정리해보려합니다.
 
 <br>
 
 
 
-## -참조할당
+## 참조할당
 
 ```javascript
 const original = {
@@ -31,19 +33,21 @@ console.log(copied.a);	//1000
 
 가장 쉽고 먼저 떠오르는 방법입니다.
 
-하지만 참조할당은 사실 복사가 아닙니다.
+하지만 한 객체의 값을 수정하면, 다른 객체의 값 또한 동일하게 변화하는데요.
 
-original과 copied라는 변수가 동일한 객체를 가리키는것 뿐입니다.
+이걸 `참조`한다고 합니다.
 
-<br>
-
-
-
-## -Shallow Clone
+original과 copied라는 서로 다른 변수가 같은 객체를 바라보고 있는 것입니다.
 
 <br>
 
-### Object.assign()
+
+
+## 얕은 복사(Shallow Clone)
+
+<br>
+
+### - Object.assign()
 
 우선, 객체의 속성을 복사할 때 사용하는 `Object.assign()`입니다.
 
@@ -86,7 +90,7 @@ person객체의 프로퍼티를 바꿨더니, copied 객체의 프로퍼티가 �
 
 
 
-### ES6 Spread Operator
+### - ES6 Spread Operator
 
 ```javascript
 const original = {
@@ -116,7 +120,7 @@ ES6의 전개연산자 또한 객체를 복사해줍니다.
 
 
 
-### for문으로 순서대로 복사하기
+### - for문으로 순서대로 복사하기
 
 ```javascript
 const copyFunc = obj => {
@@ -156,11 +160,11 @@ console.log(result.c.d);
 
 
 
-## -Deep Clone
+## 깊은 복사(Deep Clone)
 
 <br>
 
-### JSON객체의 메소드를 이용하는 방법
+### - JSON객체의 메소드를 이용하는 방법
 
 ```javascript
 const cloneObj = obj => JSON.parse(JSON.stringify(obj));
@@ -219,7 +223,7 @@ console.log(copied.d);	// undefined
 
 
 
-### Lodash의 deepclone 함수 사용하기
+### - Lodash의 deepclone 함수 사용하기
 
 ```javascript
 const clonedeep = require('lodash.clonedeep');
@@ -252,7 +256,7 @@ Lodash는 많은 메소드들을 제공하는데요.
 
 
 
-### 직접 구현하기
+### - 직접 구현하기
 
 재귀적으로 객체트리를 따라서 모두 복사를 해주는 함수를 만들어서 사용하는 방법도 있습니다.
 
@@ -294,9 +298,9 @@ console.log(copied.d());	// 'hi'
 
 
 
-## -잘못된 방법
+## 잘못된 방법
 
-### Object.create()
+### - Object.create()
 
  `Object.create()` 을 사용하는 경우가 있는데요.
 
@@ -333,4 +337,17 @@ copied.hasOwnProperty('a');	// false
 게다가 `프토토타입 체인은 확인하지않고, 해당 객체의 특정 프로퍼티 유무를 판단하는`  **Object.hasOwnProperty()** 를 사용해보면 true와 false가 출력되는 것을 볼 수 있습니다.
 
 
+
+---
+
+### Reference
+
+- https://hyunseob.github.io/2016/02/08/copy-object-in-javascript/
+- https://doitnow-man.tistory.com/130
+- https://alligator.io/js/deep-cloning-javascript-objects/
+- [https://velog.io/@ddalpange/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9D%EC%B2%B4-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0](https://velog.io/@ddalpange/자바스크립트-객체-복사하기)
+- https://mygumi.tistory.com/322
+- https://stackoverflow.com/questions/38416020/deep-copy-in-es6-using-the-spread-syntax
+- https://flaviocopes.com/how-to-clone-javascript-object/
+- https://www.daleseo.com/js-objects-clone/
 
