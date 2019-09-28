@@ -17,7 +17,9 @@ image: /img/test.jpg
 
 
 
-## Experienced
 
-- Jaranda (Frontend Engineer, 2019.04 ~ )
-- Vanilla Coding (2018.11 ~ 2019.02)
+## Work
+- [Jaranda](https://jaranda.kr/) (Frontend Engineer, 2019.04 ~ )
+
+## Experienced
+- [Vanilla Coding](https://www.vanillacoding.co/) (2018.11 ~ 2019.02)
