@@ -99,6 +99,8 @@ package-lock.json을 자주 봤지만 어떤 역할을 하는지 모르고 있�
 
 ## 왜 `package.json` 과 `package-lock.json` 으로 나눠둔 걸까요?
 
+---
+
 애초에 `package.json` 에 정확한 버전명을 적어놓으면 해결되는 문제 아닐까? 라는 의문점이 들어서 찾아봤습니다.
 
 앞서 `package.json` 에서는 `version range` 를 사용한다고 했습니다.
@@ -119,3 +121,68 @@ package-lock.json을 자주 봤지만 어떤 역할을 하는지 모르고 있�
 
 모든 크고 작은 패키지들의 릴리즈에대해 항상 추적하고 수정해야하는 엄청난 귀찮음과 수고스러움을 `version range` 가 해결해주고 있었습니다.
 
+<br>
+
+### 포스팅 끝!
+
+.
+
+.
+
+.
+
+을 내려고했지만 하나 더.
+
+## `npm ci` 명령어
+
+---
+
+`npm ci` 는 npm@5.7.1 부터 지원되는 명령어입니다.
+
+`package-lock.json` 이 존재하면 `package-lock.json` 을 이용해서 패키지들을 설치하는 명령어입니다.
+
+"아니 걍 npm install로 설치해도 package-lock.json있으면 lock으로 설치하는거 아닌가"
+
+[npm blog](https://blog.npmjs.org/post/171556855892/introducing-npm-ci-for-faster-more-reliable) 에 따르면 `node_modules` 가 없으면, `npm install` 보다 `npm ci` 가 **2배 이상** 더 빠르다고 합니다.
+
+![package-lock4](../img/package-lock4.svg)
+
+---
+
+오오..
+
+그래서 저도 사용해봤는데요.
+
+![package-lock2](../img/package-lock2.png)
+
+<center>
+  <small>
+  	npm install 명령어로 설치
+  </small>
+</center>
+
+![package-lock3](../img/package-lock3.png)
+
+<center>
+  <small>
+  	npm ci 명령어로 실행
+  </small>
+</center>
+
+
+
+작은 프로젝트임에도 설치 시간이 차이가 나네요.
+
+production으로 빌드할때 node_modules가 항상 비워져있는 환경이라면, `npm ci` 명령어를 사용하는 것도 좋을 듯 합니다!
+
+<br>
+
+### 포스팅 끝!
+
+.
+
+.
+
+.
+
+정말 끝.
