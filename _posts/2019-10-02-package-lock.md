@@ -3,6 +3,7 @@ layout: post
 title: package-lock.json이란?
 tags: [ETC]
 comments: true
+bigimg: /img/package-lock5.jpg
 ---
 
 
