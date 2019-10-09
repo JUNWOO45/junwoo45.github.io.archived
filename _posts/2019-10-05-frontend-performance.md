@@ -67,6 +67,8 @@ Donald Knuth는 코드 최적화에대해 공부할 때 가장 중요한 책 중
 
 객체와 맵은 `해시 테이블` 이라는 자료구조를 사용하기 때문이죠.
 
+벤치마크 주소는 다음과 같습니다 : [https://jsperf.com/finding-element-object-vs-map-vs-array/1](https://jsperf.com/finding-element-object-vs-map-vs-array/1)
+
 ![performance](../img/performance1.png)
 
 차이가 매우 큽니다. 
@@ -95,7 +97,7 @@ Donald Knuth는 코드 최적화에대해 공부할 때 가장 중요한 책 중
 
 `null` 을 체크하는 것이 항상 더 낫다는 것은 굉장히 중요한 사실입니다.
 
-또한 벤치마크를 보면 알겠지만, `if문`과 `short-circuit 평가` 는 성능 차이가 거의 없기때문에 더 마음에 드는 것을 사용하면 된다.
+또한 벤치마크를 보면 알겠지만, `if문`과 `short-circuit 평가` 는 성능 차이가 거의 없기때문에 더 마음에 드는 것을 사용하면 됩니다.
 
 <br>
 
@@ -174,13 +176,13 @@ Donald Knuth는 코드 최적화에대해 공부할 때 가장 중요한 책 중
 
 다른 사람의 코드에서, DOM을 조작하기위해 jQuery를 사용하는 것을 본 적이 있습니까?
 
-jQuery는 가장 유명한 자바스크립트 라이브러리 중 하나이기때문에, 당신의 동료가 jQuery를 사용하는 것을 봤을 것이라고 확신합니다.
+jQuery는 가장 유명한 자바스크립트 라이브러리 중 하나이기때문에, 여러분이나 혹은 여러분의 동료가 jQuery를 사용하는 것을 봤을 것이라고 확신합니다.
 
 물론 DOM을 다룰 때 라이브러리를 사용하는 것은 나쁜 방법이 아닙니다 - 요즘엔 React나 Angular를 사용하여 동일한 작업을 수행합니다.
 
-그러나, 몇몇 사람들은 DOM에서 엘리먼트를 가져와서 약간 수정하는 등의 간단한 작업을 위해서도 jQuery를 반드시 사용해야한다는 착각을 하곤 합니다.
+그러나, 몇몇 사람들은 DOM에서 엘리먼트를 조작하며 자그마한 수정을 하는 등의 간단한 작업을 할때도 jQuery를 반드시 사용해야한다는 착각을 하곤 합니다.
 
-이번에는 jQuery와 내장 DOM 메소드를 비교해보는 벤치마크를 준비해보았습니다 : https://jsperf.com/native-dom-functions-vs-jquery/1
+이번에는 jQuery와 내장 DOM 메소드를 비교해보는 벤치마크를 준비해보았습니다 : [https://jsperf.com/native-dom-functions-vs-jquery/1](https://jsperf.com/native-dom-functions-vs-jquery/1)
 
 ![performance6](../img/performance6.png)
 
