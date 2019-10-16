@@ -20,10 +20,11 @@ baseurl: ""
 
 # List of links in the navigation bar
 navbar-links:
-  Contents: "tags"
-  TIL: "https://junwoo45til.netlify.com/#/"
-  About: "aboutme"
   Archive: "archive"
+  TIL: "https://junwoo45til.netlify.com/#/"
+  # Tags: "tags"
+  About: "aboutme"
+  
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #   - Learn markdown: "http://www.markdowntutorial.com/"
