@@ -23,6 +23,7 @@ navbar-links:
   Contents: "tags"
   TIL: "https://junwoo45til.netlify.com/#/"
   About: "aboutme"
+  Archive: "archive"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #   - Learn markdown: "http://www.markdowntutorial.com/"
@@ -269,4 +270,3 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
-    
