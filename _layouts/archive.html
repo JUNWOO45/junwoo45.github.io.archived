@@ -12,7 +12,7 @@ layout: base
 <section class="posts-list">
 
   {% for post in site.posts %}
-  <article class="post-preview">
+  <article class="post-archive">
     {% assign currentDate = post.date | date: "%Y" %}
     {% if currentDate != myDate %}
         {% unless forloop.first %}</ul>{% endunless %}
