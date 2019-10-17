@@ -308,13 +308,13 @@ footer .theme-by {
 
 /* --- Post preview --- */
 
-.post-preview {
+.post-preview, .post-archive {
   padding: 20px 0;
   border-bottom: 1px solid #eee;
 }
 
 @media only screen and (min-width: 768px) {
-  .post-preview {
+  .post-preview, .post-archive {
     padding: 35px 0;
   }
 }
@@ -322,35 +322,41 @@ footer .theme-by {
 .post-preview:last-child {
   border-bottom: 0;
 }
+.post-archive:last-child {
+  border-bottom: 0;
+}
 
-.post-preview a {
+.post-preview a, .post-archive a {
   text-decoration: none;
   color: #404040;
 }
 
 .post-preview a:focus,
-.post-preview a:hover {
+.post-preview a:hover,
+.post-archive a:focus,
+.post-archive a:hover {
   text-decoration: none;
   color: {{ site.hover-col }};
 }
 
-.post-preview .post-title {
+.post-preview .post-title, .post-archive .post-title {
   font-size: 30px;
   margin-top: 0;
 }
-.post-preview .post-subtitle {
+.post-preview .post-subtitle, .post-archive .post-subtitle {
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
 }
 .post-preview .post-meta,
-.post-heading .post-meta {
+.post-heading .post-meta,
+.post-archive .post-meta {
   color: #808080;
   font-size: 18px;
   font-style: italic;
   margin: 0 0 10px;
 }
-.post-preview .post-entry {
+.post-preview .post-entry, .post-archive .post-entry {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .post-entry-container {
@@ -375,12 +381,12 @@ footer .theme-by {
   height: 192px;
   width: 192px;
 }
-.post-preview .post-read-more {
+.post-preview .post-read-more, .post-archive .post-read-more {
   font-weight: 800;
 }
 
 @media only screen and (min-width: 768px) {
-  .post-preview .post-title {
+  .post-preview .post-title, .post-archive .post-title {
     font-size: 36px;
   }
 }
@@ -406,13 +412,13 @@ footer .theme-by {
   background-color: #EEE;
 }
 
-.post-preview .blog-tags {
+.post-preview .blog-tags, .post-archive .blog-tags {
   margin-top: 5px;
   margin-bottom: 0;
 }
 
 @media only screen and (min-width: 768px) {
-  .post-preview .blog-tags {
+  .post-preview .blog-tags, .post-archive .blog-tags {
     margin-top: 10px;
   }
 }
