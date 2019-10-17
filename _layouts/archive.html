@@ -17,19 +17,20 @@ layout: base
     {% if currentDate != myDate %}
         {% unless forloop.first %}</ul>{% endunless %}
         <h1>{{ currentDate }}</h1>
-        <ul>
+        <!-- <ul> -->
         {% assign myDate = currentDate %}
     {% endif %}
-    <li class="post-title">
+    <div class="post-title">
       <a href="{{ post.url }}"> 
           <span class="post-meta">
             {{ post.date | date: "%Y/%m/%d" }}
           </span> 
         - {{ post.title }} 
       </a>
-    </li>
+    </div>
     {% if forloop.last %}
-  </ul>{% endif %}
+  <!-- </ul> -->
+  {% endif %}
   </article>
   {% endfor %}
 
