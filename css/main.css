@@ -308,8 +308,13 @@ footer .theme-by {
 
 /* --- Post preview --- */
 
-.post-preview, .post-archive {
+.post-preview {
   padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.post-archive {
+  padding: 10px 10px;
   border-bottom: 1px solid #eee;
 }
 
