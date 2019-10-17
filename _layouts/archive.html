@@ -19,9 +19,9 @@ layout: base
           <ul>
           {% assign myDate = currentDate %}
       {% endif %}
-      <li>
+      <li class="post-title">
         <a href="{{ post.url }}"> 
-            <span>
+            <span class="post-meta">
               {{ post.date | date: "%Y/%m/%d" }}
             </span> 
           - {{ post.title }} 
