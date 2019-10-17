@@ -21,10 +21,10 @@ layout: base
       {% endif %}
       <li>
         <a href="{{ post.url }}"> 
-          {{ post.title }} 
-          <div>
-            {{ post.date | date: "%Y-%m-%d" }}
-          </div> 
+            <span>
+              {{ post.date | date: "%Y/%m/%d" }}
+            </span> 
+          - {{ post.title }} 
         </a>
       </li>
       {% if forloop.last %}
