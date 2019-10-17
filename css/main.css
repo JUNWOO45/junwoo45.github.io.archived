@@ -355,7 +355,7 @@ footer .theme-by {
 }
 .post-preview .post-meta,
 .post-heading .post-meta,
-.post-archive .post-meta {
+.post-archive .post-title .post-meta {
   color: #808080;
   font-size: 18px;
   font-style: italic;
