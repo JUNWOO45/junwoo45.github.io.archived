@@ -16,7 +16,7 @@ layout: base
     {% assign currentDate = post.date | date: "%Y" %}
     {% if currentDate != myDate %}
         {% unless forloop.first %}</ul>{% endunless %}
-        <h1>{{ currentDate }}년 포스팅</h1>
+        <h1 class="post-archive-year">{{ currentDate }}년 포스팅</h1>
         <!-- <ul> -->
         {% assign myDate = currentDate %}
     {% endif %}

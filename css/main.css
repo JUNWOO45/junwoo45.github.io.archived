@@ -318,7 +318,7 @@ footer .theme-by {
     padding: 35px 0;
   }
   .post-archive {
-    padding: 15px;
+    padding: 15px 15px 0px 15px
   }
 }
 
@@ -327,6 +327,10 @@ footer .theme-by {
 }
 .post-archive:last-child {
   border-bottom: 0;
+}
+
+.post-archive-year {
+  margin: 15px 15px 35px 5px;
 }
 
 .post-preview a, .post-archive a {
@@ -411,6 +415,7 @@ footer .theme-by {
   }
   .post-archive .post-title {
     font-size: 24px;
+    font-weight: bold;
   }
 }
 
