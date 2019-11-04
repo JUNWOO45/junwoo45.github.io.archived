@@ -452,12 +452,22 @@ myObj['newKey'] = 'someValue'	// this will not throw an error
 2. [https://blog.bitsrc.io/master-javascript-call-by-sharing-parameter-passing-7049d65163ed](https://blog.bitsrc.io/master-javascript-call-by-sharing-parameter-passing-7049d65163ed)
 3. [https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)
 
+<br>
 
+---
 
+## 번역후기
 
+정말 재미있게 읽은 포스팅이었습니다.
 
+원시 타입과 참조 타입 데이터의 차이, 그리고 const와 let의 차이.
 
+그동안 이 두 지식을 함께 생각하지 못하고 서로 따로따로 생각하고 있었는데요;
 
+막연하게 사용하던 변수 선언에 대해, 스스로 자신있게 답하고 설명할 수 있는 근거를 배우게 되었습니다.
 
+<br>
 
- 
+오역이 있다면 댓글이나 메일로 알려주시면 수정하겠습니다.
+
+읽어주셔서 감사합니다!
