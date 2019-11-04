@@ -11,7 +11,7 @@ comments: true
 
 > 이 글은 Ethan Nam의 JavaScript's Memory Model을 번역한 글입니다.
 >
-> 원문 주소는 [JavaScript's Memory Model](https://medium.com/@ethannam/javascripts-memory-model-7c972cd2c239) 입니다.
+> 원문은 [JavaScript's Memory Model](https://medium.com/@ethannam/javascripts-memory-model-7c972cd2c239) 에서 확인하실 수 있습니다.
 
 ---
 
