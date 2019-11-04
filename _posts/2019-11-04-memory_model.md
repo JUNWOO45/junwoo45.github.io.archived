@@ -5,14 +5,12 @@ tags: [번역]
 comments: true
 ---
 
-# 자바스크립트의 메모리 모델
 
-<br>
 
 ---
 
 > 이 글은 Ethan Nam의 JavaScript's Memory Model을 번역한 글입니다.
-
+>
 > 원문 주소는 [JavaScript's Memory Model](https://medium.com/@ethannam/javascripts-memory-model-7c972cd2c239) 입니다.
 
 ---
@@ -33,7 +31,7 @@ c = false //TypeError: Assignment to constant variable
 
 
 
-변수를 선언하고, 초기화하고, 새로운 값을 할당하는 것은 프로그래머의 일상적인 업무입니다.
+변수를 선언하고, 초기화하고, 새로운 값을 할당하는 것은 개발자들의 일상적인 업무입니다.
 
 <br>
 
@@ -55,8 +53,6 @@ c = false //TypeError: Assignment to constant variable
 <br>
 
 ---
-
-<br>
 
 ## 자바스크립트 원시타입의 변수 선언과 할당
 
@@ -88,6 +84,8 @@ let myNumber = 23
 let newVar = myNumber
 ```
 
+<br>
+
 ...`myNumber` 는 “0012CCGWH80”라는 메모리 주소와 같으므로, `newVar` 도 23을 값(value)으로 가지고있는 메모리 주소 “0012CCGWH80”와 같게됩니다.
 
 즉, "newVar는 이제 23과 같습니다."라는 말과 같은 의미인거죠.
@@ -96,12 +94,15 @@ let newVar = myNumber
 
 <center><small>myNumber는 메모리 주소 “0012CCGWH80”와 같으므로 newVar에 myNumber를 할당하면, 메모리 주소 “0012CCGWH80”이 newVar에  할당됩니다.</small></center>
 
+<br>
 
 자, 다음과 같이 입력하면 어떻게 될까요?
 
 ```javascript
 myNumber = myNumber + 1
 ```
+
+<br>
 
 `myNumber` 는 너무나 당연하게 24라는 값을 가질 것입니다. 
 
@@ -193,6 +194,8 @@ myString = myString + 'd'
 ```javascript
 let Array = []
 ```
+
+<br>
 
 `myArray` 변수를 선언하고 "[]"같은 참조타입을 할당 했을 때, 다음과 같은 일들이 메모리에서 일어나게 됩니다.
 
@@ -322,6 +325,8 @@ importantID = 100	// TypeError: Assignment to constant variable
 const myArray = []
 ```
 
+<br>
+
 `myArray` 가 선언되면 메모리 주소가 콜스택에 할당되고, 그 메모리 주소의 값(value)은 힙에 할당된 메모리 주소입니다.
 
 힙에 저장된 값은 실제 빈 배열입니다.
@@ -365,6 +370,8 @@ myArray.push(5)
 ```javascript
 myArray = 3
 ```
+
+<br>
 
 숫자 3은 원시 타입이기 때문에 콜스택의 메모리 주소가 할당되고, 3이라는 값이 저장되며, 그리고나서 이렇게 생긴 새로운 메모리 주소를 `myArray` 에 할당하려고 합니다.
 
