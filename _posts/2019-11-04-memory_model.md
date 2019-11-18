@@ -11,7 +11,7 @@ comments: true
 
 > 이 글은 Ethan Nam의 JavaScript's Memory Model을 번역한 글입니다.
 >
-> 원문은 [JavaScript's Memory Model](https://medium.com/@ethannam/javascripts-memory-model-7c972cd2c239) 에서 확인하실 수 있습니다.
+> 원문은 [JavaScript's Memory Model](https://medium.com/@ethannam/javascripts-memory-model-7c972cd2c239){:target="_blank"} 에서 확인하실 수 있습니다.
 
 ---
 
@@ -410,7 +410,7 @@ myObj['newKey'] = 'someValue'	// this will not throw an error
 
 ## 이러한 것을 아는게 왜 중요한가요?
 
-[깃헙](https://github.blog/2018-11-15-state-of-the-octoverse-top-programming-languages/)과 [스택오버플로우의 설문조사](https://insights.stackoverflow.com/survey/2018/)에 따르면, 자바스크립트는 세계에서 가장 많이 사용되는 언어입니다.
+[깃헙](https://github.blog/2018-11-15-state-of-the-octoverse-top-programming-languages/){:target="_blank"}과 [스택오버플로우의 설문조사](https://insights.stackoverflow.com/survey/2018/){:target="_blank"}에 따르면, 자바스크립트는 세계에서 가장 많이 사용되는 언어입니다.
 
 실력을 향상시켜 "자바스크립트 고수"가 되는 것은 우리 모두의 목표입니다.
 
@@ -430,7 +430,7 @@ myObj['newKey'] = 'someValue'	// this will not throw an error
 >
 > 변수를 재할당하지 않는 한, 기본적으로 const를 사용해라.
 >
-> var 키워드는 절대 사용하지마라.[(출처)](https://google.github.io/styleguide/jsguide.html#features-use-const-and-let)
+> var 키워드는 절대 사용하지마라.[(출처)](https://google.github.io/styleguide/jsguide.html#features-use-const-and-let){:target="_blank"}
 
 <br>
 
@@ -448,9 +448,9 @@ myObj['newKey'] = 'someValue'	// this will not throw an error
 
 참고 문헌:
 
-1. [https://google.github.io/styleguide/jsguide.html](https://google.github.io/styleguide/jsguide.html)
-2. [https://blog.bitsrc.io/master-javascript-call-by-sharing-parameter-passing-7049d65163ed](https://blog.bitsrc.io/master-javascript-call-by-sharing-parameter-passing-7049d65163ed)
-3. [https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)
+1. [https://google.github.io/styleguide/jsguide.html](https://google.github.io/styleguide/jsguide.html){:target="_blank"}
+2. [https://blog.bitsrc.io/master-javascript-call-by-sharing-parameter-passing-7049d65163ed](https://blog.bitsrc.io/master-javascript-call-by-sharing-parameter-passing-7049d65163ed){:target="_blank"}
+3. [https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec){:target="_blank"}
 
 <br>
 
