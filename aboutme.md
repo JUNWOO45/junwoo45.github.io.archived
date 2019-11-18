@@ -8,7 +8,7 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 <br>
 
-저는
+## 개발자 박준우는
 
 <br>  
 
@@ -48,4 +48,4 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 - [NHN TOAST FORWARD 자바스크립트 OOP 꼭꼭 씹어 먹기](https://onoffmix.com/event/181202)
 
-- [Vanilla Coding](https://www.vanillacoding.co/) (2018.11 ~ 2019.02)
+- [Vanilla Coding](https://www.vanillacoding.co/) 
