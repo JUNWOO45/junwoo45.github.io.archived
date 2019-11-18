@@ -40,7 +40,7 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 ## Experienced
 
-- [kakao FE(Front end) meetup](https://tech.kakao.com/2019/10/24/kakao-fefront-end-meetup-2/)
+- [kakao FE(Front end) meetup](https://tech.kakao.com/2019/10/24/kakao-fefront-end-meetup-2/){:target="_blank"}
 
 - [KT S/W DEVELOPER CONFERENCE 2019](https://festa.io/events/344) 
 
