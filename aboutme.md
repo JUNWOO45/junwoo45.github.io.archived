@@ -34,7 +34,7 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 
 ## Work
-- [Jaranda](https://jaranda.kr/) (Frontend Engineer, 2019.04 ~ )
+- [Jaranda](https://jaranda.kr/){:target="_blank"} (Frontend Engineer, 2019.04 ~ )
 
 <br>
 
@@ -42,8 +42,8 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 - [kakao FE(Front end) meetup](https://tech.kakao.com/2019/10/24/kakao-fefront-end-meetup-2/){:target="_blank"}
 
-- [KT S/W DEVELOPER CONFERENCE 2019](https://festa.io/events/344) 
+- [KT S/W DEVELOPER CONFERENCE 2019](https://festa.io/events/344){:target="_blank"} 
 
-- [NHN TOAST FORWARD 자바스크립트 OOP 꼭꼭 씹어 먹기](https://onoffmix.com/event/181202)
+- [NHN TOAST FORWARD 자바스크립트 OOP 꼭꼭 씹어 먹기](https://onoffmix.com/event/181202){:target="_blank"}
 
-- [Vanilla Coding](https://www.vanillacoding.co/) 
+- [Vanilla Coding](https://www.vanillacoding.co/){:target="_blank"} 
