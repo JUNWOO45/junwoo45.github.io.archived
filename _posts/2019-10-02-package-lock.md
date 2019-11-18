@@ -148,7 +148,7 @@ package-lock.json을 자주 봤지만 어떤 역할을 하는지 모르고 있�
 
 "아니 걍 npm install로 설치해도 package-lock.json있으면 lock으로 설치하는거 아닌가"
 
-[npm blog](https://blog.npmjs.org/post/171556855892/introducing-npm-ci-for-faster-more-reliable) 에 따르면 `node_modules` 가 없으면, `npm install` 보다 `npm ci` 가 **2배 이상** 더 빠르다고 합니다.
+[npm blog](https://blog.npmjs.org/post/171556855892/introducing-npm-ci-for-faster-more-reliable){:target="_blank"} 에 따르면 `node_modules` 가 없으면, `npm install` 보다 `npm ci` 가 **2배 이상** 더 빠르다고 합니다.
 
 ![package-lock4](../img/package-lock4.svg)
 
@@ -206,17 +206,17 @@ production으로 빌드할때 node_modules가 항상 비워져있는 환경이�
 
 ---
 
-- [https://medium.com/coinmonks/everything-you-wanted-to-know-about-package-lock-json-b81911aa8ab8](https://medium.com/coinmonks/everything-you-wanted-to-know-about-package-lock-json-b81911aa8ab8)
-- [https://docs.npmjs.com/misc/semver](https://docs.npmjs.com/misc/semver)
-- [https://docs.npmjs.com/about-semantic-versioning](https://docs.npmjs.com/about-semantic-versioning)
-- [https://www.lucidchart.com/techblog/2017/03/15/package-management-stop-using-version-ranges/](https://www.lucidchart.com/techblog/2017/03/15/package-management-stop-using-version-ranges/)
-- [https://stackoverflow.com/questions/45052520/do-i-need-both-package-lock-json-and-package-json](https://stackoverflow.com/questions/45052520/do-i-need-both-package-lock-json-and-package-json)
-- [https://hyunjun19.github.io/2018/03/23/package-lock-why-need/](https://hyunjun19.github.io/2018/03/23/package-lock-why-need/)
-- [https://trustyoo86.github.io/npm/2018/01/10/package-lock-introduction.html](https://trustyoo86.github.io/npm/2018/01/10/package-lock-introduction.html)
-- [https://pewww.tistory.com/11?category=763280](https://pewww.tistory.com/11?category=763280)
-- [https://dschci.tistory.com/108](https://dschci.tistory.com/108)
-- [https://blog.kangho.me/about-package.json/](https://blog.kangho.me/about-package.json/)
-- [https://blog.greenkeeper.io/introduction-to-version-ranges-e0e8c6c85f0f](https://blog.greenkeeper.io/introduction-to-version-ranges-e0e8c6c85f0f)
-- [https://devnote.niceilm.net/npm-ci/](https://devnote.niceilm.net/npm-ci/)
-- [https://medium.com/@trustyoo86/ci-%ED%99%98%EA%B2%BD%EC%9D%84-%EC%9C%84%ED%95%9C-npm-ci-npm-ci-for-continous-integration-850fc48dd4cc](https://medium.com/@trustyoo86/ci-환경을-위한-npm-ci-npm-ci-for-continous-integration-850fc48dd4cc)
-- [https://blog.npmjs.org/post/171556855892/introducing-npm-ci-for-faster-more-reliable](https://blog.npmjs.org/post/171556855892/introducing-npm-ci-for-faster-more-reliable)
+- [https://medium.com/coinmonks/everything-you-wanted-to-know-about-package-lock-json-b81911aa8ab8](https://medium.com/coinmonks/everything-you-wanted-to-know-about-package-lock-json-b81911aa8ab8){:target="_blank"}
+- [https://docs.npmjs.com/misc/semver](https://docs.npmjs.com/misc/semver){:target="_blank"}
+- [https://docs.npmjs.com/about-semantic-versioning](https://docs.npmjs.com/about-semantic-versioning){:target="_blank"}
+- [https://www.lucidchart.com/techblog/2017/03/15/package-management-stop-using-version-ranges/](https://www.lucidchart.com/techblog/2017/03/15/package-management-stop-using-version-ranges/){:target="_blank"}
+- [https://stackoverflow.com/questions/45052520/do-i-need-both-package-lock-json-and-package-json](https://stackoverflow.com/questions/45052520/do-i-need-both-package-lock-json-and-package-json){:target="_blank"}
+- [https://hyunjun19.github.io/2018/03/23/package-lock-why-need/](https://hyunjun19.github.io/2018/03/23/package-lock-why-need/){:target="_blank"}
+- [https://trustyoo86.github.io/npm/2018/01/10/package-lock-introduction.html](https://trustyoo86.github.io/npm/2018/01/10/package-lock-introduction.html){:target="_blank"}
+- [https://pewww.tistory.com/11?category=763280](https://pewww.tistory.com/11?category=763280){:target="_blank"}
+- [https://dschci.tistory.com/108](https://dschci.tistory.com/108){:target="_blank"}
+- [https://blog.kangho.me/about-package.json/](https://blog.kangho.me/about-package.json/){:target="_blank"}
+- [https://blog.greenkeeper.io/introduction-to-version-ranges-e0e8c6c85f0f](https://blog.greenkeeper.io/introduction-to-version-ranges-e0e8c6c85f0f){:target="_blank"}
+- [https://devnote.niceilm.net/npm-ci/](https://devnote.niceilm.net/npm-ci/){:target="_blank"}
+- [https://medium.com/@trustyoo86/ci-%ED%99%98%EA%B2%BD%EC%9D%84-%EC%9C%84%ED%95%9C-npm-ci-npm-ci-for-continous-integration-850fc48dd4cc](https://medium.com/@trustyoo86/ci-환경을-위한-npm-ci-npm-ci-for-continous-integration-850fc48dd4cc){:target="_blank"}
+- [https://blog.npmjs.org/post/171556855892/introducing-npm-ci-for-faster-more-reliable](https://blog.npmjs.org/post/171556855892/introducing-npm-ci-for-faster-more-reliable){:target="_blank"}
