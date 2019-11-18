@@ -11,7 +11,7 @@ comments: true
 
 > 이 글은 Tomasz Świstak의 How to increase your frontend app's performance - 5 coding tips를 번역한 글입니다.
 >
-> 원문 주소는 [https://www.synergycodes.com/blog/how-to-increase-your-frontend-apps-performance](https://www.synergycodes.com/blog/how-to-increase-your-frontend-apps-performance) 입니다.
+> 원문 주소는 [https://www.synergycodes.com/blog/how-to-increase-your-frontend-apps-performance](https://www.synergycodes.com/blog/how-to-increase-your-frontend-apps-performance){:target="_blank"} 입니다.
 
 ------
 
@@ -67,7 +67,7 @@ Donald Knuth는 코드 최적화에대해 공부할 때 가장 중요한 책 중
 
 객체와 맵은 `해시 테이블` 이라는 자료구조를 사용하기 때문이죠.
 
-벤치마크 주소는 다음과 같습니다 : [https://jsperf.com/finding-element-object-vs-map-vs-array/1](https://jsperf.com/finding-element-object-vs-map-vs-array/1)
+벤치마크 주소는 다음과 같습니다 : [https://jsperf.com/finding-element-object-vs-map-vs-array/1](https://jsperf.com/finding-element-object-vs-map-vs-array/1){:target="_blank"}
 
 ![performance](../img/performance1.png)
 
@@ -91,7 +91,7 @@ Donald Knuth는 코드 최적화에대해 공부할 때 가장 중요한 책 중
 
 벤치 마크에서는 세가지 방법, `if문`, `try-catch`, `short-circuit 평가` 를 검사했습니다.
 
-벤치마크 주소는 다음과 같습니다 : [https://jsperf.com/try-catch-vs-conditions/1](https://jsperf.com/try-catch-vs-conditions/1)
+벤치마크 주소는 다음과 같습니다 : [https://jsperf.com/try-catch-vs-conditions/1](https://jsperf.com/try-catch-vs-conditions/1){:target="_blank"}
 
 ![performance2](../img/performance2.png)
 
@@ -117,7 +117,7 @@ Donald Knuth는 코드 최적화에대해 공부할 때 가장 중요한 책 중
 
 각각의 케이스를 `메소드 체이닝`, `forEach`, `기본 반복문` 을 사용하여 테스트해보았습니다.
 
-벤치마크 주소는 다음과 같습니다 : [https://jsperf.com/array-function-chains-vs-single-loop-filter-map/1](https://jsperf.com/array-function-chains-vs-single-loop-filter-map/1)
+벤치마크 주소는 다음과 같습니다 : [https://jsperf.com/array-function-chains-vs-single-loop-filter-map/1](https://jsperf.com/array-function-chains-vs-single-loop-filter-map/1){:target="_blank"}
 
 ![performance3](../img/performance3.png)
 
@@ -125,7 +125,7 @@ Donald Knuth는 코드 최적화에대해 공부할 때 가장 중요한 책 중
 
 차이가 크지않은 이유는, `map` 에서는 `push` 를 하는 과정이 없기때문입니다.
 
-이제, `filter`와 `reduce` 를 검사해보겠습니다 : [https://jsperf.com/array-function-chains-vs-single-loop-filter-reduce/1](https://jsperf.com/array-function-chains-vs-single-loop-filter-reduce/1)
+이제, `filter`와 `reduce` 를 검사해보겠습니다 : [https://jsperf.com/array-function-chains-vs-single-loop-filter-reduce/1](https://jsperf.com/array-function-chains-vs-single-loop-filter-reduce/1){:target="_blank"}
 
 ![performance4](../img/performance4.png)
 
@@ -149,7 +149,7 @@ Donald Knuth는 코드 최적화에대해 공부할 때 가장 중요한 책 중
 
 그러 이러한 반복문은 전통적으로 사용되던 `기본 반복문` 과 비교하면 성능이 떨어집니다.
 
-이미 반복문의 성능을 알 수 있는 벤치마크들을 살펴보았지만, 새로운 벤치마크를 만들어보겠습니다 : [https://jsperf.com/for-loops-in-few-different-ways/](https://jsperf.com/for-loops-in-few-different-ways/)
+이미 반복문의 성능을 알 수 있는 벤치마크들을 살펴보았지만, 새로운 벤치마크를 만들어보겠습니다 : [https://jsperf.com/for-loops-in-few-different-ways/](https://jsperf.com/for-loops-in-few-different-ways/){:target="_blank"}
 
 자바스크립트 내장 함수 이외에, Lodash의 `forEach`와 jQuery의 `each` 도 테스트했습니다.
 
@@ -182,7 +182,7 @@ jQuery는 가장 유명한 자바스크립트 라이브러리 중 하나이기�
 
 그러나, 몇몇 사람들은 DOM에서 엘리먼트를 조작하며 자그마한 수정을 하는 등의 간단한 작업을 할때도 jQuery를 반드시 사용해야한다는 착각을 하곤 합니다.
 
-이번에는 jQuery와 내장 DOM 메소드를 비교해보는 벤치마크를 준비해보았습니다 : [https://jsperf.com/native-dom-functions-vs-jquery/1](https://jsperf.com/native-dom-functions-vs-jquery/1)
+이번에는 jQuery와 내장 DOM 메소드를 비교해보는 벤치마크를 준비해보았습니다 : [https://jsperf.com/native-dom-functions-vs-jquery/1](https://jsperf.com/native-dom-functions-vs-jquery/1){:target="_blank"}
 
 ![performance6](../img/performance6.png)
 
@@ -192,7 +192,7 @@ jQuery는 가장 유명한 자바스크립트 라이브러리 중 하나이기�
 
 오직 클래스 명으로 엘리먼트 여러개를 가져올 때 사용하는 `querySelectorAll` 의 경우에만 jQuery보다 느렸습니다.
 
-jQuery를 어떻게 교체해야할 지에 대한 더 많은 정보를 얻고 싶으면, [http://youmightnotneedjquery.com](http://youmightnotneedjquery.com/) 를 읽어보세요.
+jQuery를 어떻게 교체해야할 지에 대한 더 많은 정보를 얻고 싶으면, [http://youmightnotneedjquery.com](http://youmightnotneedjquery.com/){:target="_blank"} 를 읽어보세요.
 
 물론, DOM을 다룰 때 라이브러리를 사용하는 것이 나쁜 방법은 아닙니다.
 
@@ -212,7 +212,7 @@ jQuery를 어떻게 교체해야할 지에 대한 더 많은 정보를 얻고 �
    이는 매우 광범위한 주제이지만, 제대로 수행한다면 당신의 어플리케이션의 로딩 시간이 매우 크게 향상될 수 있습니다.
 2. 자료구조, 기본적인 알고리즘과 그 알고리즘의 복잡성에대해 공부해보세요.
    사람들은 이것들이 단지 이론적인 지식에 불과하다고 생각하지만, 우리는 이미 첫번째 팁에서 이 지식들이 실제로 어떤 영향을 끼치는지 확인해봤습니다.
-3. [jsPerf](https://jsperf.com/popular) 에서 테스트 케이스들을 찾아보세요.
+3. [jsPerf](https://jsperf.com/popular){:target="_blank"} 에서 테스트 케이스들을 찾아보세요.
    자바스크립트에서 동일한 결과를 달성하는 여러가지 다른 방법들을 비교할 수 있습니다.
 
 <br>
