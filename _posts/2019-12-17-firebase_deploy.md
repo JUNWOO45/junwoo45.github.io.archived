@@ -1,4 +1,9 @@
-
+---
+layout: post
+title: Firebase CLI를 사용하여 배포하기
+tags: Firebase
+comments: true
+---
 
 저는 프로젝트를 완성시킨 다음, 배포를 진행해야 한다는 생각을 가지고 있었습니다.
 
