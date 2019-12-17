@@ -13,7 +13,7 @@ localhost에서 늘 혼자만 보다가 어느샌가 사라져버리는건 이�
 
 누군가가 호스팅 URL을 통해 보고있으면 더 재미있으니깐, 정말 아무것도 없이 네비게이션 바 라우팅만 되어있는 프로젝트라고해도 앞으로는 배포를 먼저 해버리고 프로젝트를 시작하려고 Firebase Cloud Hosting을 시도해보고 기록으로 남깁니다.
 
-
+<br>
 
 ## Step 1. Firebase CLI 설치
 
@@ -25,7 +25,7 @@ npm install -g firebase-tools
 
 ![deploy1](../img/firebase_deploy1.png)
 
-
+<br>
 
 ---
 
@@ -37,7 +37,7 @@ firebase login
 
 `firebase login` 명령어로 로컬머신을 Firebase에 연결하고, Firebase 프로젝트에대한 액세스 권한을 부여받을 수 있습니다.
 
-
+<br>
 
 ---
 
@@ -91,7 +91,7 @@ firebase list
 
 생성한 프로젝트가 잘 보이네요!
 
-
+<br>
 
 ---
 
@@ -111,7 +111,7 @@ firebase init
 
 스페이스바를 눌러서 선택이 가능하고, 엔터키를 눌러서 다음 단계로 넘어갈 수 있습니다.
 
-###
+
 
 저는, 호스팅만 필요하기때문에 호스팅만 선택한 뒤 넘어갑니다.
 
@@ -131,7 +131,7 @@ firebase init
 
 ![deploy11](../img/firebase_deploy11.png)
 
-
+<br>
 
 ---
 
@@ -157,7 +157,7 @@ build 결과물의 디렉토리를 적어주면 됩니다.
 
 Firebase initialization complete!
 
-
+<br>
 
 ---
 
@@ -165,7 +165,7 @@ Firebase initialization complete!
 
 ## Step5. 배포하기
 
-
+<br>
 
 혹시 아직  `ng build --prod` 명령어로 빌드하지않았다면, 빌드를 먼저 진행해주세요.
 
@@ -173,7 +173,7 @@ Firebase initialization complete!
 ng build --prod
 ```
 
-
+<br>
 
 빌드가 완료되었으면 `firebase deploy ` 명령어를 실행하여 배포를 시작합니다.
 
@@ -185,6 +185,6 @@ firebase deploy
 
 ![deploy15](../img/firebase_deploy15.png)
 
-
+<br>
 
 배포가 성공적으로 완료되면, Hosting URL에 들어가서 잘 동작하는지 확인해보면 됩니다!
