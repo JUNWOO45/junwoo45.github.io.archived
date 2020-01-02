@@ -8,7 +8,7 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 <br>
 
-## 저는..
+## 저는
 
 - 복잡한 비즈니스 로직과는 별개로, 사용자는 유려한 UI만을 경험하는 것이 중요하다고 생각합니다.
 
@@ -39,6 +39,8 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 <br>
 
 ## Experienced
+
+- [NHN FORWARD](https://forward.nhn.com/2019/seoul/){:target="_blank"}
 
 - [kakao FE(Front end) meetup](https://tech.kakao.com/2019/10/24/kakao-fefront-end-meetup-2/){:target="_blank"}
 
