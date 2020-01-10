@@ -207,3 +207,17 @@ CSV파일을 작업하는 일이 종종있는데, CSV파일의 가독성을 높�
 
 CSV Lint기능까지 있습니다.
 
+---
+
+
+
+## settings.json
+
+나를 그렇게도 괴롭히던...
+
+파일을 열면 기존에 열어놨던 파일을 덮어씌워버리면서 새롭게 열리는 것을 방지
+
+```
+"workbench.editor.enablePreview": false
+```
+
