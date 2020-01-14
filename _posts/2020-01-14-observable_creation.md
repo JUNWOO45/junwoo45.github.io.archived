@@ -17,7 +17,21 @@ RxJS를 조금씩 공부하고 있습니다.
 
 <br>
 
+## create
 
+: 주어진 subscription 함수를 옵저버블로 만듭니다.
+
+![create1](../img/observable_creation10.png)
+
+이렇게 error를 만나면, 다음 next는 옵저버에게 전달되지않고 종료된다.
+
+![create2](../img/observable_creation11.png)
+
+complete에게는 value값을 넘길 수 없구나..
+
+![create3](../img/observable_creation12.png)
+
+<br>
 
 ## from
 
