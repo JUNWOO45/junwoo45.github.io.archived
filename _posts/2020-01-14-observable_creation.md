@@ -9,7 +9,7 @@ comments: true
 
 RxJS를 조금씩 공부하고 있습니다.
 
-옵저버블의 개념에 대해서는 [옵저버블](https://junwoo45til.netlify.com/#/RxJS/observable) 에 아주 거칠고 투박하고 나만 알아먹게 첫느낌 정도로만 정리해두었습니다.
+옵저버블의 개념에 대해서는 [옵저버블](https://junwoo45til.netlify.com/#/RxJS/observable){:target="_blank"} 에 아주 거칠고 투박하고 나만 알아먹게 첫느낌 정도로만 정리해두었습니다.
 
 더 정제된 글로 다듬어야겠네요..
 
@@ -23,7 +23,7 @@ RxJS를 조금씩 공부하고 있습니다.
 
 : 배열이나 프로미스, 또는 이터러블을 옵저버블로 바꿔준다.
 
-#### Observable from array
+#### 1. Observable from array
 
 배열의 요소 하나하나가 next메소드를 통해 옵저버에게 전달된다.
 
@@ -39,17 +39,17 @@ RxJS를 조금씩 공부하고 있습니다.
 
 
 
-#### Observable from promise
+#### 2. Observable from promise
 
 ![from2](file:///Users/junwoo/Documents/study/junwoo45.github.io/img/observable_creation6.png?lastModify=1578993382)
 
 
 
-#### Observable from collection
+#### 3. Observable from collection
 
 ![from3](file:///Users/junwoo/Documents/study/junwoo45.github.io/img/observable_creation7.png?lastModify=1578993382)
 
-
+<br>
 
 ## fromEvent
 
@@ -98,4 +98,13 @@ jsbin에서 실행해보았다.
 ![timer](../img/observable_creation4.png)
 
 <br>
+
+
+
+#### Reference
+
+- [https://rxjs-dev.firebaseapp.com/guide/operators](https://rxjs-dev.firebaseapp.com/guide/operators){:target="_blank"}
+- [https://www.learnrxjs.io/operators/](https://www.learnrxjs.io/operators/){:target="_blank"}
+
+
 
