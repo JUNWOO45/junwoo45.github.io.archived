@@ -27,13 +27,13 @@ RxJS를 조금씩 공부하고 있습니다.
 
 배열의 요소 하나하나가 next메소드를 통해 옵저버에게 전달된다.
 
-![from1](file:///Users/junwoo/Documents/study/junwoo45.github.io/img/observable_creation5.png?lastModify=1578993382)
+![from1](../img/observable_creation5.png?lastModify=1578993382)
 
 
 
 완료가 되면 옵저버에게는 complete notification이 전달 되고, 실행된다.
 
-![from1-1](file:///Users/junwoo/Documents/study/junwoo45.github.io/img/observable_creation8.png?lastModify=1578993382)
+![from1-1](../img/observable_creation8.png?lastModify=1578993382)
 
 
 
@@ -41,13 +41,13 @@ RxJS를 조금씩 공부하고 있습니다.
 
 #### 2. Observable from promise
 
-![from2](file:///Users/junwoo/Documents/study/junwoo45.github.io/img/observable_creation6.png?lastModify=1578993382)
+![from2](../img/observable_creation6.png?lastModify=1578993382)
 
 
 
 #### 3. Observable from collection
 
-![from3](file:///Users/junwoo/Documents/study/junwoo45.github.io/img/observable_creation7.png?lastModify=1578993382)
+![from3](../img/observable_creation7.png?lastModify=1578993382)
 
 <br>
 
@@ -55,7 +55,7 @@ RxJS를 조금씩 공부하고 있습니다.
 
 :DOM 이벤트를 옵저버블로 바꿔줍니다.
 
-![fromEvent](file:///Users/junwoo/Documents/study/junwoo45.github.io/img/observable_creation9.png?lastModify=1578993382)
+![fromEvent](../img/observable_creation9.png?lastModify=1578993382)
 
 
 
