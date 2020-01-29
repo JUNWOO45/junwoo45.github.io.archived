@@ -4,7 +4,6 @@ title: <번역>자바스크립트 성능 향상 방법
 tags: [번역]
 comments: true
 ---
-# 자바스크립트 성능 향상 방법
 
 ------
 
@@ -22,13 +21,13 @@ comments: true
 
 #   우선 문제를 감지합시다.
 
-Lighthouse는 웹 페이지에 널리 사용되는 도구입니다. Lighthouse는 접근성, 퍼포먼스, SEO와 같은 성능들을 측정해줍니다. 마찬가지로 [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/)도 JavaScript 개발자가 웹 사이트의 개선 및 성능 최적화에대해 이해하도록 돕기위해 만들어졌습니다.
+Lighthouse는 웹 페이지에 널리 사용되는 도구입니다. Lighthouse는 접근성, 퍼포먼스, SEO와 같은 성능들을 측정해줍니다. 마찬가지로 [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/){:target="_blank"}도 JavaScript 개발자가 웹 사이트의 개선 및 성능 최적화에대해 이해하도록 돕기위해 만들어졌습니다.
 
 크롬의 메인 메뉴에는 각 탭의 메모리 및 CPU 사용량을 보여주는 '도구 더보기' 옵션이 있습니다. 또한, 크롬이나 파이어폭스의 퍼포먼스 탭에서는 더욱 자세한 분석을 확인할 수 있습니다. 이러한 도구들을 통해 다양한 분석을 할 수 있습니다.
 
 ![png1](../img/js_performance1.png)
 
-더 심도있게 공부하려면 [Navagation Timing API](https://levelup.gitconnected.com/navigation-timing-browser-api-track-and-improve-website-performance-in-javascript-f1dbfb45612)를 사용해보세요. 이 API는 웹 사이트의 성능을 측정하기위해 사용하는 데이터를 제공해줍니다.
+더 심도있게 공부하려면 [Navagation Timing API](https://levelup.gitconnected.com/navigation-timing-browser-api-track-and-improve-website-performance-in-javascript-f1dbfb45612){:target="_blank"}를 사용해보세요. 이 API는 웹 사이트의 성능을 측정하기위해 사용하는 데이터를 제공해줍니다.
 
 <br>
 
@@ -121,7 +120,7 @@ Gzip은 대부분의 클라이언트와 서버에서 압축 및 압축 해제를
 
 우린 두가지 방법으로 사용할 수 있습니다.
 
-- [HTTP 프로토콜 캐시](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
+- [HTTP 프로토콜 캐시](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching){:target="_blank"}
 - 또는 서비스 워커 설치로 사용할 수 있는 자바스크립트 Cache API
 
 해당 객체에 대한 참조에 변수를 사용하거나, 반복된 접근 객체를 사용자 정의 변수에 저장함으로써 성능을 크게 향상시킬 수 있습니다.
