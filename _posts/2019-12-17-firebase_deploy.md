@@ -44,7 +44,9 @@ firebase login
 ## Step 3. 액세스 확인
 
 ```
-firebase list
+firebase list //해당 명령어는 deprecated되었네요. 아래 명령어를 입력해주세요.
+firebase projects:list
+
 ```
 
 [Firebase Console](https://console.firebase.google.com/u/0/) 에 추가해둔 프로젝트들이 터미널창에 나열되면 제대로 액세스 된 것입니다.
