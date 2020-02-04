@@ -27,7 +27,7 @@ Lighthouse는 웹 페이지에 널리 사용되는 도구입니다. Lighthouse�
 
 ![png1](../img/js_performance1.png)
 
-더 심도있게 공부하려면 [Navagation Timing API](https://levelup.gitconnected.com/navigation-timing-browser-api-track-and-improve-website-performance-in-javascript-f1dbfb45612){:target="_blank"}를 사용해보세요. 이 API는 웹 사이트의 성능을 측정하기위해 사용하는 데이터를 제공해줍니다.
+더 심도있게 공부하려면 [Navigation Timing API](https://levelup.gitconnected.com/navigation-timing-browser-api-track-and-improve-website-performance-in-javascript-f1dbfb45612){:target="_blank"}를 사용해보세요. 이 API는 웹 사이트의 성능을 측정하기위해 사용하는 데이터를 제공해줍니다.
 
 <br>
 
