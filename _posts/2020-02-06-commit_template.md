@@ -29,7 +29,7 @@ comments: true
 
 <br>
 
-[https://git-scm.com/book/ko/v2/Git%EB%A7%9E%EC%B6%A4-Git-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0](https://git-scm.com/book/ko/v2/Git맞춤-Git-설정하기) 를 읽고 따라가며 진행했습니다.
+[https://git-scm.com/book/ko/v2/Git%EB%A7%9E%EC%B6%A4-Git-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0](https://git-scm.com/book/ko/v2/Git맞춤-Git-설정하기){:target="_blank"} 를 읽고 따라가며 진행했습니다.
 
 <br>
 
@@ -116,13 +116,13 @@ git config --global commit.template ~/.gitmessage.txt
 
 ---
 
-역시나, VS Code Extension에는 [Visual Studio Code Commitizen Support](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen) 가 있는데요.
+역시나, VS Code Extension에는 [Visual Studio Code Commitizen Support](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen){:target="_blank"} 가 있는데요. (알려준 [바다](https://github.com/0261){:target="_blank"} 감사..!)
 
 ![commit3](../img/commit_template3.png)
 
 <br>
 
-요 녀석은 커밋 템플릿을 좀 더 써보고, 설치해볼 생각입니다.
+요 녀석은 커밋 템플릿을 좀 더 써보고, 설치해 볼 생각입니다.
 
 <br>
 
@@ -130,5 +130,5 @@ git config --global commit.template ~/.gitmessage.txt
 
 ### Reference
 
-- [https://git-scm.com/book/ko/v2/Git%EB%A7%9E%EC%B6%A4-Git-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0](https://git-scm.com/book/ko/v2/Git맞춤-Git-설정하기)
+- [https://git-scm.com/book/ko/v2/Git%EB%A7%9E%EC%B6%A4-Git-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0](https://git-scm.com/book/ko/v2/Git맞춤-Git-설정하기){:target="_blank"}
 
