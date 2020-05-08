@@ -147,7 +147,7 @@ const foo = new Set([1,2,3,4,3,2,4,5]);
 console.log(foo);	//Set(5) {1, 2, 3, 4, 5}
 ```
 
-
+<br>
 
 ### WeakMap, WeakSet?
 
