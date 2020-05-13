@@ -309,9 +309,6 @@ footer .theme-by {
 
 /* --- Post preview --- */
 
-.archive-title {
-  margin-left: 20px;
-}
 
 .post-preview {
   padding: 20px 0;
@@ -337,6 +334,10 @@ footer .theme-by {
 }
 .post-archive:last-child {
   border-bottom: 0;
+}
+
+.archive-title {
+  margin-left: 20px;
 }
 
 .post-archive-year {
