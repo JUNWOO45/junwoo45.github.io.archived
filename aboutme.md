@@ -39,13 +39,12 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 <br>
 
 ## Experienced
-<br>
 
-#### 2020
+### 2020
 
 - [대한민국 개발자의 생존전략 인생 로드맵](https://www.onoffmix.com/event/205305){:target="_blank"}
 
-#### 2019
+### 2019
 
 - [NHN FORWARD](https://forward.nhn.com/2019/seoul/){:target="_blank"}
 
