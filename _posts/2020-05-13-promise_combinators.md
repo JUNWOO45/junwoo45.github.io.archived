@@ -7,7 +7,7 @@ comments: true
 
 ES2020에 `Promise.allSettled` 가 소개되었습니다.
 
-아직 [TC39 Proposal Stage 3단계](https://github.com/tc39/proposals)인 `Promise.any` 도 같이 공부하며, 정리해보려고 합니다.
+여기에 더해 아직 [TC39 Proposal Stage 3단계](https://github.com/tc39/proposals){:target="_blank"}인 `Promise.any` 도 같이 공부하며, 정리해보려고 합니다.
 
 <br>
 
@@ -140,7 +140,7 @@ removeLoadingIndicator();
 
 #### Promise.any
 
-`Promise.any` 는 [TC39 Candidate stage (Stage 3)](https://github.com/tc39/proposal-promise-any) 단계의 메소드입니다.
+`Promise.any` 는 [TC39 Candidate stage (Stage 3)](https://github.com/tc39/proposal-promise-any){:target="_blank"} 단계의 메소드입니다.
 
 여러 프로미스 중, 단 하나의 프로미스가 이행(fullfilled)되면 프로미스 객체를 반환합니다.
 
