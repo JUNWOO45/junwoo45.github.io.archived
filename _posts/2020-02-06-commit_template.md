@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 좋은 커밋 메시지를 작성하기 위한 커밋 템플릿 만들어보기
-tags: git
+tags: [git]
 comments: true
 ---
 

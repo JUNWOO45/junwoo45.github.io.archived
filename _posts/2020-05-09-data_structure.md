@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 자바스크립트 자료구조
-tags: javascript, data_structure
+tags: [javascript, data_structure]
 comments: true
 ---
 

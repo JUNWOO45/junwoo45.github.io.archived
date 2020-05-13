@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 옵저버블 생성함수
-tags: RxJS
+tags: [RxJS]
 comments: true
 ---
 

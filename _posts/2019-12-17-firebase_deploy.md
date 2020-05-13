@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Firebase CLI를 사용하여 배포하기
-tags: Firebase
+tags: [Firebase]
 comments: true
 ---
 
