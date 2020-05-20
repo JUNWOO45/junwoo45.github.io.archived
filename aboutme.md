@@ -35,8 +35,7 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 ## Experienced
 <!-- - [Jaranda](https://jaranda.kr/){:target="_blank"} (Frontend Engineer, 2019.04 ~ ) -->
-### 자란다
-- Frontend Engineer, 2019.04 ~ 2020.05
+### 자란다 / Frontend Engineer, 2019.04 ~ 2020.05
 
 #### - 부모님, 선생님 앱 개발 / Angular, TypeScript, RxJS, LESS, Python, MySQL
 - 중복 수업 신청 막기, 수업 필터링 기능 개선 등 사용자 경험 개선
