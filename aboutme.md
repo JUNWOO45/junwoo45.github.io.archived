@@ -33,12 +33,33 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 <br>
 
 
-## Work
-- [Jaranda](https://jaranda.kr/){:target="_blank"} (Frontend Engineer, 2019.04 ~ )
+## Experienced
+<!-- - [Jaranda](https://jaranda.kr/){:target="_blank"} (Frontend Engineer, 2019.04 ~ ) -->
+### 자란다 (Frontend Engineer, 2019.04 ~ 2020.05)
+<br>
+- 부모님, 선생님 앱 개발 및 유지보수 - Angular, TypeScript, RxJS, LESS, Python, MySQL, GCP
+  - 라우팅, 컴포넌트 이동 간 애니메이션 작업, 중복 수업 신청 막기, 수업 필터링 기능 개선 등 사용자 경험 개선
+
+- 프로젝트 구조 정리
+  - Service를 활용한 API 호출 방식으로 개선 및 컴포넌트 분리
+
+- 채팅 개발 - Angular, TypeScript, RxJS
+  - 컴포넌트 구조 설계
+  - 채팅방 진입 시 스크롤 처리, 라우팅 이동 간 애니메이션 등 사용자 경험 개선
+  - 퍼블리싱 작업
+
+- 관리자 콘솔 개발 - jQuery, Vue.js
+  - 월간 통계 기능 개발
+  - 신규 관리자 콘솔을 위한 프로젝트 구조 설계
+    - 코드스플리팅 적용 및 D3 스터디 진행
+
+- GCP Cron, 로그 기록 및 실시간 알림톡 발송 - Python, MySQL, GCP
+
+- 코딩 컨벤션, 릴리즈 노트, 컨퍼런스 교육 후기 작성 등 문서화 작업
 
 <br>
 
-## Experienced
+## Communities
 
 ### 2020
 
