@@ -36,8 +36,6 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 ### NHN Service / Frontend Engineer, 2020.05 ~
 
-<br>
-
 ### 자란다 / Frontend Engineer, 2019.04 ~ 2020.05
 
 #### 부모님, 선생님 앱 개발

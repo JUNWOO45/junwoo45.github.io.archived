@@ -6564,18 +6564,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
-#nhn-service--frontend-engineer-202005- {
-  color: red;
-}
-
-#nhn-service--frontend-engineer-202005-::before {
-  content: '';
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  -moz-border-radius: 7.5px;
-  -webkit-border-radius: 7.5px;
-  border-radius: 7.5px;
-  background-color: #69b6d5;
-}
