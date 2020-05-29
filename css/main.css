@@ -27,6 +27,21 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 800;
   margin: 30px 0px 15px 0px;
 }
+
+h3#nhn-service--frontend-engineer-202005- {
+  color: blue;
+}
+
+#nhn-service--frontend-engineer-202005-::before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: #69b6d5;
+}
 a {
   color: {{ site.link-col }};
 }
