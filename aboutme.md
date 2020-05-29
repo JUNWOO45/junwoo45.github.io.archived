@@ -33,8 +33,9 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 <br>
 
 
-## Experienced
-<!-- - [Jaranda](https://jaranda.kr/){:target="_blank"} (Frontend Engineer, 2019.04 ~ ) -->
+## Experiences
+### NHN Service / Frontend Engineer, 2020.05 ~
+
 ### 자란다 / Frontend Engineer, 2019.04 ~ 2020.05
 
 #### - 부모님, 선생님 앱 개발
