@@ -92,7 +92,7 @@ try {
 
 ```typescript
 const promises = [
-	performVeryHeavyLogic(),
+  performVeryHeavyLogic(),
   rejectByForceAfterTimeoutMs(5000)
 ];
 
@@ -111,10 +111,10 @@ try {
 ```typescript
 Promise.race([
   fetch('https://api.github.com/users/schacon').then(data => data.json()),
-	fetch('https://api.github.com/users/pjhyett').then(data => data.json())
+  fetch('https://api.github.com/users/pjhyett').then(data => data.json())
 ])
-	.then(data => console.log(`${data.name}가 먼저 도착했어요!`))
-	.catch(error => console.error('error : ', error));
+  .then(data => console.log(`${data.name}가 먼저 도착했어요!`))
+  .catch(error => console.error('error : ', error));
 ```
 
 <br>
@@ -154,7 +154,7 @@ const promises = [
 ];
 
 try {
-	const first = await Promise.any(promises);
+  const first = await Promise.any(promises);
   // 가장 먼저 이행(fullfilled)된 프로미스
   console.log(first);	// ex: 'c'
 } catch(error) {
