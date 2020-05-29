@@ -32,7 +32,7 @@ h3#nhn-service--frontend-engineer-202005-, h3#자란다--frontend-engineer-20190
   color: inherit;
 }
 
-#nhn-service--frontend-engineer-202005-::before {
+#nhn-service--frontend-engineer-202005-::before, h3#자란다--frontend-engineer-201904--202005::before {
   content: '';
   /* display: inline-block; */
   position: absolute;
