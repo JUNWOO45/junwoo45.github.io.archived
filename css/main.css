@@ -30,19 +30,21 @@ h1,h2,h3,h4,h5,h6 {
 
 h3#nhn-service--frontend-engineer-202005-, h3#자란다--frontend-engineer-201904--202005 {
   color: inherit;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 15px;
+  margin-top: 50px;
 }
 
 #nhn-service--frontend-engineer-202005-::before, h3#자란다--frontend-engineer-201904--202005::before {
   content: '';
-  /* display: inline-block; */
   position: absolute;
-  left: 0px;
+  left: 2px;
   width: 10px;
   height: 10px;
   -moz-border-radius: 7.5px;
   -webkit-border-radius: 7.5px;
   border-radius: 7.5px;
-  background-color: #69b6d5;
+  background-color: #cccccc;
 }
 a {
   color: {{ site.link-col }};
