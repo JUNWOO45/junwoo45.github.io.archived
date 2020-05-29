@@ -834,6 +834,10 @@ pre {
   font-size: 16px;
 }
 
+#nhn-service--frontend-engineer-202005- {
+  color: red;
+}
+
 #nhn-service--frontend-engineer-202005-::before {
   content: '';
   display: inline-block;
