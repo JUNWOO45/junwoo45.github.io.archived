@@ -49,20 +49,13 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 <br>
 
-## Communities
-
-### 2020
+## Communities & Activities
 
 - [대한민국 개발자의 생존전략 인생 로드맵](https://www.onoffmix.com/event/205305){:target="_blank"}
 
-### 2019
-
-- [NHN FORWARD](https://forward.nhn.com/2019/seoul/){:target="_blank"}
-
+- [NHN FORWARD 2019](https://forward.nhn.com/2019/seoul/){:target="_blank"}
 - [kakao FE(Front end) meetup](https://tech.kakao.com/2019/10/24/kakao-fefront-end-meetup-2/){:target="_blank"}
-
 - [KT S/W DEVELOPER CONFERENCE 2019](https://festa.io/events/344){:target="_blank"} 
-
-- [NHN TOAST FORWARD 자바스크립트 OOP 꼭꼭 씹어 먹기](https://onoffmix.com/event/181202){:target="_blank"}
-
+- [NAVER GLACE Dev Meetup](){:target="_blank"} 
+- [NHN TOAST FORWARD 기술 교육: 자바스크립트 OOP 꼭꼭 씹어 먹기](https://onoffmix.com/event/181202){:target="_blank"}
 - [Vanilla Coding](https://www.vanillacoding.co/){:target="_blank"} 
