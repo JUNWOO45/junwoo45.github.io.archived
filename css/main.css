@@ -28,14 +28,14 @@ h1,h2,h3,h4,h5,h6 {
   margin: 30px 0px 15px 0px;
 }
 
-h3#nhn-service--frontend-engineer-202005-, h3#자란다--frontend-engineer-201904--202005 {
+h3#nhn-toast--frontend-engineer-202007-, h3#nhn-service--frontend-engineer-202005--202007, h3#자란다--frontend-engineer-201904--202005 {
   color: inherit;
   border-bottom: 1px solid #e8e8e8;
   padding-bottom: 15px;
   margin-top: 50px;
 }
 
-#nhn-service--frontend-engineer-202005-::before, h3#자란다--frontend-engineer-201904--202005::before {
+h3#nhn-toast--frontend-engineer-202007-, h3#nhn-service--frontend-engineer-202005--202007::before, h3#자란다--frontend-engineer-201904--202005::before {
   content: '';
   position: absolute;
   left: 2px;
