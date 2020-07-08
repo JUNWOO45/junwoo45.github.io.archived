@@ -23,7 +23,11 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 ## Experiences
 
+### NHN Toast / Frontend Engineer, 2020.07 ~
+
 ### NHN Service / Frontend Engineer, 2020.05 ~
+
+#### FE 교육 중 법인 이동
 
 ### 자란다 / Frontend Engineer, 2019.04 ~ 2020.05
 
