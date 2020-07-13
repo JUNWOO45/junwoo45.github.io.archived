@@ -35,7 +35,7 @@ h3#nhn-toast--frontend-engineer-202007-, h3#nhn-service--frontend-engineer-20200
   margin-top: 50px;
 }
 
-h3#nhn-toast--frontend-engineer-202007-, h3#nhn-service--frontend-engineer-202005--202007::before, h3#자란다--frontend-engineer-201904--202005::before {
+h3#nhn-toast--frontend-engineer-202007-::before, h3#nhn-service--frontend-engineer-202005--202007::before, h3#자란다--frontend-engineer-201904--202005::before {
   content: '';
   position: absolute;
   left: 2px;
