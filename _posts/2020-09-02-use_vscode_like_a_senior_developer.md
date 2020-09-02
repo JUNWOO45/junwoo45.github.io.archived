@@ -11,7 +11,7 @@ comments: true
 
 ![vscod1](../img/VSCode1.jpeg)
 
-<center><small>Photo by [Pankaj Patel](https://unsplash.com/@pankajpatel) on [Unsplash](https://unsplash.com/)</small></center>
+<small>Photo by [Pankaj Patel](https://unsplash.com/@pankajpatel) on [Unsplash](https://unsplash.com/)</small>
 
 VSCode는 인기있는 코드 에디터 중 하나이며, VSCode에 익숙해지며 생산성을 엄청나게 끌어올릴 수 있습니다. 이 글에서 소개하는 팁들이 도움이 되었으면 좋겠습니다.
 
