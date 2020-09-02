@@ -1,18 +1,17 @@
-# <번역>시니어 개발자처럼 VSCode 사용하기
+---
+layout: post
+title: <번역>시니어 개발자처럼 VSCode 사용하기
+tags: [번역]
+comments: true
+---
 
-
-
->이 글을 bitfish의 Use VSCode Like a Senior Developer을 번역한 글입니다.
+> 이 글을 bitfish의 Use VSCode Like a Senior Developer을 번역한 글입니다.
 >
->원문은 [Use VSCode Like a Senior Developer](https://levelup.gitconnected.com/use-vscode-like-a-senior-developer-9b54054c452a) 에서 확인하실 수 있습니다.
-
-
+> 원문은 [Use VSCode Like a Senior Developer](https://levelup.gitconnected.com/use-vscode-like-a-senior-developer-9b54054c452a) 에서 확인하실 수 있습니다.
 
 ![vscod1](../img/VSCode1.jpeg)
 
-<center><small>Photo by [Pankaj Patel](https://unsplash.com/@pankajpatel?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)</small></center>
-
-
+<center>Photo by [Pankaj Patel](https://unsplash.com/@pankajpatel?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)</center>
 
 VSCode는 인기있는 코드 에디터 중 하나이며, VSCode에 익숙해지며 생산성을 엄청나게 끌어올릴 수 있습니다. 이 글에서 소개하는 팁들이 도움이 되었으면 좋겠습니다.
 
@@ -68,7 +67,7 @@ VSCode는 인기있는 코드 에디터 중 하나이며, VSCode에 익숙해지
 아래와 같은 코드가 있고, `foo` 를 `bar` 로 바꾸고 싶습니다. 어떻게 작업하실 건가요?
 
 ```javascript
-function foo(){
+function foo() {
   // ...
 }
 
@@ -118,11 +117,10 @@ foo();
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title></title>
-</head>
-<body>
-</body>
+  <head>
+    <title></title>
+  </head>
+  <body></body>
 </html>
 ```
 
@@ -130,7 +128,7 @@ foo();
 
 ```javascript
 for(let i = 0; i < ; i++){
-  
+
 }
 ```
 
@@ -219,11 +217,10 @@ VSCode는 설정 파일을 읽어야 위와 같은 일을 할 수 있기 때문�
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title></title>
-</head>
-<body>
-</body>
+  <head>
+    <title></title>
+  </head>
+  <body></body>
 </html>
 ```
 
