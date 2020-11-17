@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <번역>시니어 개발자처럼 VSCode 사용하기
+title: <번역>DRY가 먹히지 않으면, WET하게
 tags: [번역]
 comments: true
 ---
