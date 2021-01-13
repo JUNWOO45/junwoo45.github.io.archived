@@ -18,6 +18,7 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 <br>
 
 ---
+
 ## Experiences
 
 ### NHN Toast / Frontend Engineer, 2020.07 ~
@@ -36,6 +37,7 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 - 퍼블리싱 작업
 
 #### 부모님, 선생님 앱 개발
+
 - Angular, TypeScript, RxJS, LESS, Python, MySQL
 - 중복 수업 신청 막기, 수업 필터링 기능 개선 등 사용자 경험 개선
 - Service를 통한 API 호출 방식으로 개선 및 컴포넌트 분리
@@ -43,6 +45,7 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 - 프로젝트 문서화
 
 #### 관리자 콘솔 개발
+
 - Python, MySQL, jQuery, Vue.js
 - 월간 통계 기능 개발
 - CS채널을 통해 들어오는 요구사항 및 기능 개선
@@ -52,11 +55,13 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 ## Communities & Activities
 
-- [대한민국 개발자의 생존전략 인생 로드맵](https://www.onoffmix.com/event/205305){:target="_blank"}
+- [대한민국 개발자의 생존전략 인생 로드맵](https://www.onoffmix.com/event/205305){:target="\_blank"}
 
-- [NHN FORWARD 2019](https://forward.nhn.com/2019/seoul/){:target="_blank"}
-- [kakao FE(Front end) meetup](https://tech.kakao.com/2019/10/24/kakao-fefront-end-meetup-2/){:target="_blank"}
-- [KT S/W DEVELOPER CONFERENCE 2019](https://festa.io/events/344){:target="_blank"} 
-- [NAVER GLACE Dev Meetup](){:target="_blank"} 
-- [NHN TOAST FORWARD 기술 교육: 자바스크립트 OOP 꼭꼭 씹어 먹기](https://onoffmix.com/event/181202){:target="_blank"}
-- [Vanilla Coding](https://www.vanillacoding.co/){:target="_blank"} 
+- [NHN FORWARD 2019](https://forward.nhn.com/2019/seoul/){:target="\_blank"}
+- [kakao FE(Front end) meetup](https://tech.kakao.com/2019/10/24/kakao-fefront-end-meetup-2/){:target="\_blank"}
+- [KT S/W DEVELOPER CONFERENCE 2019](https://festa.io/events/344){:target="\_blank"}
+- [NAVER GLACE Dev Meetup](){:target="\_blank"}
+- [NHN TOAST FORWARD 기술 교육: 자바스크립트 OOP 꼭꼭 씹어 먹기](https://onoffmix.com/event/181202){:target="\_blank"}
+- [Vanilla Coding](https://www.vanillacoding.co/){:target="\_blank"}
+
+- v1.1
