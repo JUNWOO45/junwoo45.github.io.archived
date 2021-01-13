@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Bonneville - A Gatsby Starter Blog
+  Bonneville - A Gatsby Starter Blog123
 </h1>
 
 ## Please Note
@@ -57,4 +57,5 @@ This uses Netlify forms. For more information on these please visit:
 [Netlify Forms Documentaion](https://docs.netlify.com/forms/setup/)
 
 ## Footer.js
+
 `Footer.js` takes menu imports from `constants/menu-items.js` where you can declare the title and path. Depending on if these imports are present/true, the component will render the associated `<div>`.
