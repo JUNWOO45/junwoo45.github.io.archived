@@ -16,7 +16,7 @@ export default ({ data }) => {
     <>
       <Seo />
       <Banner
-        content="My name is JUNWOO. I'm a starter theme for Gatsby and I like to talk
+        content="My name is JUNWOO55. I'm a starter theme for Gatsby and I like to talk
         as if I am a living thing"
       />
       <FeaturedItems>{BlogPostQuery.totalCount} Featured Posts</FeaturedItems>
