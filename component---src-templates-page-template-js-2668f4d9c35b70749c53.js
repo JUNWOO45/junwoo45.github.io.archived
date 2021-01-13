@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{"8vKr":function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),r=a("0Wn5"),c=a("EYWl");t.default=function(e){var t=e.pageContext.page;return l.a.createElement(l.a.Fragment,null,l.a.createElement(c.a,{title:t.name,description:t.title}),l.a.createElement("div",{className:"page-standard"},l.a.createElement(r.a,{content:t.title}),l.a.createElement("p",null,t.content)))}}}]);
+//# sourceMappingURL=component---src-templates-page-template-js-2668f4d9c35b70749c53.js.map
