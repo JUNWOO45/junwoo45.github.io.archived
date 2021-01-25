@@ -10,8 +10,8 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 ## 저는
 
-- 복잡한 비즈니스 로직과는 별개로, 사용자가 경험할 유려한 UI를 고민합니다.
-- 동료 디자이너분의 디자인을 1px도 놓치지않고 구현해내려 합니다.
+- 복잡한 비즈니스 로직과는 별개로, 사용자가 경험할 유려한 UI를 고민하려합니다.
+- 디자이너분의 디자인을 1픽셀도 놓치지않고 구현해내려 합니다.
 - 주도적으로 참여할 수 있는 업무환경을 선호합니다.
 - 기록과 공유를 좋아합니다.
 
@@ -21,11 +21,18 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 
 ## Experiences
 
-### NHN Toast / Frontend Engineer, 2020.07 ~
+### NHN SOFT / Frontend Engineer, 2020.05 ~
 
-### NHN Service / Frontend Engineer, 2020.05 ~ 2020.07
+#### NHN FORWARD2020 FE 개발
 
-#### FE 교육 중 NHN Toast로 조직 이동
+- React, MobX, TypeScript, CSS Module, SCSS
+- 프론트엔드 프로젝트 구조 및 라우터 설계
+- 필터링 기능 개발 및 i18n 다국어 처리
+- 크로스 브라우징을 고려한 마크업, 애니메이션 처리
+
+#### 사내 프로젝트 관리자 페이지 개발
+
+- React, MobX, TypeScript, Ant Design
 
 ### 자란다 / Frontend Engineer, 2019.04 ~ 2020.05
 
@@ -44,19 +51,19 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 - 라우팅 이동 간 애니메이션 작업 등 유려한 UI 표현
 - 프로젝트 문서화
 
-#### 관리자 콘솔 개발
+#### 관리자 페이지 개발
 
 - Python, MySQL, jQuery, Vue.js
 - 월간 통계 기능 개발
 - CS채널을 통해 들어오는 요구사항 및 기능 개선
-- 신규 관리자 콘솔을 위한 프로젝트 프론트엔드 구조 설계, 코드 스플리팅 적용 및 D3 스터디 진행
+- 신규 관리자 페이지를 위한 프로젝트 프론트엔드 구조 설계, 코드 스플리팅 적용 및 D3 스터디 진행
 
 <br>
 
 ## Communities & Activities
 
+- [NHN FORWARD 2020](https://forward.nhn.com/home){:target="\_blank"}
 - [대한민국 개발자의 생존전략 인생 로드맵](https://www.onoffmix.com/event/205305){:target="\_blank"}
-
 - [NHN FORWARD 2019](https://forward.nhn.com/2019/seoul/){:target="\_blank"}
 - [kakao FE(Front end) meetup](https://tech.kakao.com/2019/10/24/kakao-fefront-end-meetup-2/){:target="\_blank"}
 - [KT S/W DEVELOPER CONFERENCE 2019](https://festa.io/events/344){:target="\_blank"}
