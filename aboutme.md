@@ -71,4 +71,4 @@ subtitle: 프론트엔드 개발자 박준우입니다.
 - [NHN TOAST FORWARD 기술 교육: 자바스크립트 OOP 꼭꼭 씹어 먹기](https://onoffmix.com/event/181202){:target="\_blank"}
 - [Vanilla Coding](https://www.vanillacoding.co/){:target="\_blank"}
 
-- v1.1
+- v0217
